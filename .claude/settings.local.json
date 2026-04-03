@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node server.js)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(xargs kill:*)",
+      "Bash(gh --version)",
+      "Bash(gh auth:*)",
+      "Bash(git --version)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"/c/Program Files/GitHub CLI:$PATH\")",
+      "Read(//c/Users/infer/Documents/Doms Game/$APPDATA/GitHub CLI/**)",
+      "Read(//c/Users/infer/Documents/Doms Game/$HOME/.config/gh/**)",
+      "Read(//c/Users/infer/Documents/Doms Game/$APPDATA/**)",
+      "Read(//c/Users/infer/Documents/Doms Game/$HOME/.config/**)",
+      "Bash(echo \"APPDATA=$APPDATA\")",
+      "Bash(echo \"HOME=$HOME\")",
+      "Read(//c/Users/infer/AppData/Local/**)",
+      "Read(//c/Users/infer/AppData/**)"
+    ]
+  }
+}

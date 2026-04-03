@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GETAWAY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Game scripts loaded in dependency order -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/physics.js"></script>
+    <script src="js/camera.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/entity.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/minimap.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/level.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/engine.js"></script>
+
+    <!-- Level data -->
+    <script src="levels/level1.js"></script>
+
+    <!-- Bootstrap (must be last!) -->
+    <script src="js/main.js"></script>
+</body>
+</html>
